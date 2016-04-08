@@ -1,27 +1,28 @@
+<h1>HELLO</h1>
 <form>
   <div class="form-group">
     <label for="cartName">Name of Cart:</label>
-    {{input class="form-control" type="text" value:cartName id="cartName"}}
+    {{input class="form-control" type="text" value=cartName id="cartName"}}
   </div>
   <div class="form-group">
     <label for="foodType">Type of Food:</label>
-    {{input class="form-control" type="text" value:foodType id="foodType"}}
+    {{input class="form-control" type="text" value=foodType id="foodType"}}
   </div>
   <div class="form-group">
     <label for="isMobile">Does it Travel?:</label>
-    {{input class="form-control" type="checkbox" value:isMobile id="isMobile"}}
+    {{input class="form-control" type="checkbox" checked=false id="isMobile"}}
   </div>
   <div class="form-group">
     <label for="homeCity">What City is in?:</label>
-    {{input class="form-control" type="text" value:homeCity id="homeCity"}}
+    {{input class="form-control" type="text" value=homeCity id="homeCity"}}
   </div>
   <div class="form-group">
     <label for="homeLocation">Address of homebase:</label>
-    {{input class="form-control" type="text" value:homeLocation id="homeLocation"}}
+    {{input class="form-control" type="text" value=homeLocation id="homeLocation"}}
   </div>
   <div class="form-group">
     <label for="picture">Picture of the cart (URL):</label>
-    {{input class="form-control" type="url" value:picture id="picture"}}
+    {{input class="form-control" type="url" value=picture id="picture"}}
   </div>
 
   <button {{action 'saveCart' cart}} class="btn btn-success">Save Cart</button>

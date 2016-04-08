@@ -7,7 +7,7 @@ export default Ember.Component.extend({
         cartName: this.get('cartName'),
         foodType: this.get('foodType'),
         isMobile: this.get('isMobile'),
-        homeCity: ,this.get('homeCity')
+        homeCity: this.get('homeCity'),
         homeLocation: this.get('homeLocation'),
         picture: this.get('picture'),
       };

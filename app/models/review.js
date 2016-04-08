@@ -5,7 +5,7 @@ export default DS.Model.extend({
   foodRating: DS.attr(),
   valueRating: DS.attr(),
   seenAt: DS.attr(),
-  date: DS.attr().
+  date: DS.attr(),
   reviewedBy: DS.attr(),
   cart: DS.belongsTo('cart', {async: true})
 

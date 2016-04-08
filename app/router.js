@@ -7,7 +7,8 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('about');
-  this.route('foodcart', path: '/foodcart/:cart_id');
+  this.route('addcart');
+  this.route('foodcart', {path: '/foodcart/:food_id'});
 });
 
 export default Router;
