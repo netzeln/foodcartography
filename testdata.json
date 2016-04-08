@@ -1,0 +1,36 @@
+{ "carts" :[{
+    "id": 1,
+    "cartName": "Chow Haul",
+    "foodType": "Fusion",
+    "reviews" : 1,
+    "isMobile" : true,
+    "homeCity" : "Duluth, MN",
+    "homeLocation": "lat lon"
+  }, {
+      "cartName": "TacMo's",
+      "foodType": "Mexican",
+      "reviews" : 2,
+      "isMobile" : true,
+      "homeCity" : "Agloe, NY",
+      "homeLocation": "lat lon"
+    }
+  ],
+  "reviews" :[{
+    "reviewText" : "Super Tasty and Fun. Loved the Iron Bowl. Hire them to cater your Wedding!",
+    "foodRating" : 5,
+    "valueRating" : 3,
+    "SeenAt": "lat Lon",
+    "date": "date",
+    "reviewedBy" : "nic",
+    "cart" : 1
+  }, {
+    "reviewText" : "decent tacos, but not for the price",
+    "foodRating" : 3,
+    "valueRating" : 1,
+    "SeenAt": "lat Lon",
+    "date": "date",
+    "reviewedBy" : "Hammy",
+    "cart" : 2
+    }
+  ]
+}

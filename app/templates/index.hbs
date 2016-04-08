@@ -1,0 +1,5 @@
+<h2>Carts</h2>
+{{log model.carts}}
+{{#each model.carts as |cart|}}
+  {{cart-display cart=cart}}
+{{/each}}
